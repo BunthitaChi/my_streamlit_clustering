@@ -47,4 +47,4 @@ ax.legend()
 
 # Show plot and data
 st.pyplot(fig)
-st.dataframe(clustered_df.head(10))
+st.dataframe(reduced_df.head(10))
